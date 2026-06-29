@@ -1,7 +1,13 @@
+// Módulo 2: Fundamentos. 
+
+    // Variables.
+    // Tipos de datos (primitivos y compuestos).
+    // Operadores (aritméticos, de comparación y lógicos).
+    // Mutabilidad e inmutabilidad.
+    // Sombreado
+
 fn main() 
-{
-    // Fundamentos: variables, tipos de datos (primitivos y compuestos), operadores, mutabilidad e inmutabilidad y sombreado.
-    
+{   
     // Para nombrar las variables usamos la nomenclatura snake_case
     let mi_variable = 8;
     println!("La variable vale: {mi_variable}");
