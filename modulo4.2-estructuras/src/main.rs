@@ -10,10 +10,7 @@ fn main() {
     };
 
     // Acceso a los campos de la estructura e imprime por pantalla la información
-    println!(
-        "El nombre del usuario es: {}",
-        usuario_empresa.nombre_usuario
-    );
+    println!("El nombre del usuario es: {}", usuario_empresa.nombre_usuario);
     println!("El email del usuario es: {}", usuario_empresa.email);
     println!("La edad del usuario es: {}", usuario_empresa.edad);
     println!("El usuario está activo: {}", usuario_empresa.activo);
