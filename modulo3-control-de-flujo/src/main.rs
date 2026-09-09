@@ -46,7 +46,7 @@ fn main() {
     // Loop (Este bucle es infinito hasta que se rompe con el break)
     let mut contador = 1;
     loop {
-        println!("La variable vale: {}", contador);
+        println!("La variable vale: {contador}");
 
         if contador == 5 {
             break;
@@ -58,7 +58,7 @@ fn main() {
     // Bucle while
     let mut contador = 1;
     while contador <= 5 {
-        println!("La variable vale: {}", contador);
+        println!("La variable vale: {contador}");
         contador += 1;
     }
     println!();
@@ -67,19 +67,19 @@ fn main() {
     for i in 1..=5
     // Si ponemos el signo igual se incluye el último valor que pongamos.
     {
-        println!("La variable vale: {}", i);
+        println!("La variable vale: {i}");
     }
     println!();
 
     let frutas = ["manzana", "uva", "naranja"];
     for fruta in frutas.iter() {
-        println!("La fruta es: {}", fruta);
+        println!("La fruta es: {fruta}");
     }
     println!();
 
     // El break se puede usar en los 3 tipos de bucles que hemos visto.
     for i in 1..=10 {
-        println!("La variable vale: {}", i);
+        println!("La variable vale: {i}");
 
         if i == 5 {
             break;
@@ -92,6 +92,6 @@ fn main() {
         if numero % 2 == 0 {
             continue;
         }
-        println!("La variable vale: {}", numero)
+        println!("La variable vale: {numero}")
     }
 }
